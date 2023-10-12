@@ -47,6 +47,10 @@
         width: 50%;
         margin: 0 auto;
     }
+
+    #time::after{
+        content: "秒";
+    }
     
     #mycanvas {
         color: #ffffff;
@@ -66,11 +70,15 @@
     #btnB {
         font-size: 20px;
         position:absolute; top:380px; left:45%; width:25%; height:60px; 
+        background-color:orange;
+        color:pink; 
     }
 
     #btnC {
         font-size: 10px;
-        position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        position:absolute; top:380px; left:70%; width:28%; height:60px;
+        background-color: rgb(184, 240, 184);
+        color: red;  
     }
     
     #minute {

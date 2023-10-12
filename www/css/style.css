@@ -3,8 +3,14 @@
     body{
         background-color: skyblue;
     }
+
+
+    button{
+        color:  bule;
+    }
+
     #minuteStr {
-        color: #ff0000;
+        color: #0400ff;
         font-size: 20px;
         text-align: left;
         position:absolute; top:210px; 

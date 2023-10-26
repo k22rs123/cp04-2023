@@ -166,6 +166,7 @@
         $('#btnB').prop('disabled', false);
         $('#btnC').prop('disabled', false);
         $('#btnD').prop('disabled', false);
+        
     }
 
     // Alarmの処理
@@ -208,7 +209,8 @@
     function btnDClick(e){
          $("#disp1").html("元気ですか～" );
     }
-
+    //buttonEがクリックされた時の処理
+   
 
     
  
@@ -240,10 +242,12 @@
     <div id="time">Time</div>
    <div id="disp1"></div>
    
+   
     <button id="btnA">Start</button>  
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button> 
     <button id="btnD">Start</button>  
+  
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
 </body>
